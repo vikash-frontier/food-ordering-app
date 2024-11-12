@@ -1,9 +1,11 @@
+import Header from "./components/Header";
+import Restaurant from "./components/Restaurant";
+
 function App() {
   return (
     <>
-      <h1 className=" text-[#FFF] text-2xl capitalize text-center">
-        Food Ordering app
-      </h1>
+      <Header />
+      <Restaurant />
     </>
   );
 }
