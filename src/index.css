@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -62,4 +63,19 @@ body {
   transition: all 300ms ease-in;
   transform: scale(1.02);
   opacity: 1;
+}
+
+.overlay_card {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  display: grid;
+  align-content: end;
+  text-align: left;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  height: calc(81px);
+  background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
 }
