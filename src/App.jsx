@@ -1,11 +1,11 @@
+import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import Restaurant from "./components/Restaurant";
 
 function App() {
   return (
     <>
       <Header />
-      <Restaurant />
+      <Outlet />
     </>
   );
 }
